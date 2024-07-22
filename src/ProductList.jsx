@@ -10,10 +10,9 @@ function ProductList() {
     const [showPlants, setShowPlants] = useState(false); // State to control the visibility of the About Us page
     const dispatch = useDispatch();
     const cartItems = useSelector(state => state.cart.items);
-    console.log(cartItems);
 
     useEffect(() => {
-        // Update the addedToCart state based on items in the cart
+        
         const updatedAddedToCart = {};
         cartItems.forEach(item => {
             updatedAddedToCart[item.name] = true;
