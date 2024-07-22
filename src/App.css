@@ -37,9 +37,9 @@
 }
 
 .landing_content {
- margin-top: 430px;
+  margin-top: 430px;
   margin-left: 100px;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
   z-index: 1;
   text-align: center;
   /* background-color: red; */
@@ -63,7 +63,7 @@
 }
 
 .content p {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .divider {
