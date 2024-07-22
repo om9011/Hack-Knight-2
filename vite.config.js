@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/shoppingreact",
   plugins: [react()],
+  build: {
+    outDir: 'build' // Ensure this path is correct and does not have any trailing semicolons or typos
+  }
 })
